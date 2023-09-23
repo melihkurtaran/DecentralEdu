@@ -1,0 +1,162 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+button,
+a {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Set up some basic typography */
+body {
+  background-color: #f4f4f4;
+}
+
+.App {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px 8px 0 0;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Style the course grid */
+.course-grid {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 20px; /* Adjust the gap between items */
+}
+
+.course-item {
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.course-item:hover {
+  transform: translateY(-5px);
+}
+
+.course-image {
+  max-width: 100%;
+  height: 150px; /* Fixed height for all images */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Style the "See More" link */
+.see-more-link {
+  color: #007bff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.see-more-link.less {
+  text-decoration: none;
+}
+
+/* Style the "Enroll the Course" button */
+.enroll-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.enroll-button.enrolled {
+  background-color: #4caf50; /* Green when enrolled */
+}
+.enroll-button.enrolled:hover {
+  background-color: #388e3c; /* Darker green on hover when enrolled */
+}
+
+.enroll-button:hover {
+  background-color: #0056b3;
+}
+
+/* Style the "See More" link */
+.see-more-link {
+  color: #ff7bff;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-bottom: 100px; /* Add margin to create distance from the button */
+  padding: 10px;
+}
+
+.see-more-link.less {
+  text-decoration: none;
+}
+
+/* Logo */
+.App-header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px 8px 0 0;
+}
+
+.header-content {
+  display: flex;
+  align-items: center; /* Vertically center items */
+}
+
+.logo {
+  width: 80px; /* Adjust the width as needed */
+  height: 80px; /* Set the height equal to the width to create a circular shape */
+  margin-right: 20px; /* Add some spacing between the logo and text */
+  border-radius: 50%; /* Make the logo circular */
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+

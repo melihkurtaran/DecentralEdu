@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "title": "Become a Polygon Expert",
+      "price": "₿ 0.0002",
+      "about": "Polygon is the leading platform for Ethereum scaling and infrastructure development. Its growing suite of products offers developers easy access to all major scaling and infrastructure solutions: L2 solutions (ZK Rollups and Optimistic Rollups), sidechains, hybrid solutions, stand-alone and enterprise chains, data availability solutions, and more. Polygon’s scaling solutions have seen widespread adoption with 18000+ applications hosted, 1B+ total transactions processed, ~100M+ unique user addresses, and $5B+ in assets secured.",
+      "image": "polygon.png"
+    },
+    {
+      "id": 2,
+      "title": "Learn Worldcoin",
+      "price": "₿ 0.0004",
+      "about": "Worldcoin is building the world’s largest identity and financial network as a public utility, giving ownership to everyone. World ID is the protocol to bring global proof of personhood to the internet, built to be privacy-first, decentralized and self-custodial.",
+      "image": "worldcoin.png"
+    },
+    {
+      "id": 3,
+      "title": "Learn How 1inch Network works",
+      "price": "₿ 0.00015",
+      "about": "The 1inch Network seamlessly unites multiple decentralized protocols, empowering users to perform efficient, user-friendly and secure operations in the Web3 space. The 1inch Network provides access to hundreds of liquidity sources across multiple blockchains. Its main components are the 1inch Aggregation Protocol, the 1inch Liquidity Protocol, the 1inch Limit Order Protocol, and the 1inch Wallet – a fast and secure mobile application for storing, receiving, sending, and swapping crypto assets. The 1inch Swap Engine, built on top of 1inch’s Aggregation Protocol and Limit Order Protocol, is a decentralized trading and matching system that connects DEX users with practically limitless liquidity. The 1inch Swap Engine executes trade orders using the Dutch auction model, providing more efficiency, flexibility, and tunability than regular swaps or limit orders. Powered by the 1inch Swap Engine, Fusion mode enables users to swap tokens without paying any network fees and at the most favorable rates. In addition, Fusion mode offers users extra MEV protection. All swaps in Fusion mode are executed by resolvers – professional traders, who use the most sophisticated and efficient ways of protecting users’ swaps from MEV.",
+      "image": "1inch.jpeg"
+    },
+    {
+        "id": 4,
+        "title": "Lens Protocol",
+        "price": "₿ 0.001",
+        "about": "Lens Protocol is the social layer for web3. The Lens social graph enables creators to take ownership of their content wherever they go across the dozens of high-quality apps across the Ecosystem, with new ones coming online every month. With Lens, you can easily build social applications or integrate social features into your existing applications. For developers, one of Lens' most powerful features is that it eliminates the need to build, maintain, and pay for back-end infrastructure, allowing developers to focus 100% on building the consumer experience. Teams with as few as 1 developer are able to build polished experiences on Lens using the variety of APIs and SDKs available to builders.",
+        "image": "lens.png"
+      },
+      {
+        "id": 5,
+        "title": "Learn XMTP",
+        "price": "₿ 0.003",
+        "about": "XMTP (Extensible Message Transport Protocol) is an open protocol and network for secure, private messaging between Ethereum accounts. With the XMTP SDK, developers can enhance their applications with a universal inbox for direct messages, alerts, and announcements, or build new tools for dapps, DAOs, creators, and protocols to re-engage users via web3 messaging. Its primary contributor, XMTP Labs, is funded by some of the industry’s top venture capital funds including a16z Crypto and Coinbase Ventures.",
+        "image": "xmtp.png"
+      },
+      {
+        "id": 6,
+        "title": "Learn How Starknet Works",
+        "price": "₿ 0.00008",
+        "about": "StarkWare develops scaling solutions for the Ethereum blockchain based on STARK Validity Proofs. It has launched StarkEx – a SaaS scaling engine, and Starknet, a Layer 2 Validity Rollup. It has also developed Cairo, a Turing-Complete Programming Language. Starknet is a permissionless Validity-Rollup (also known as a “ZK-Rollup”) that operates as an L2 network over Ethereum. It enables any dApp to achieve scale for its computation without compromising Ethereum’s composability and security, thanks to Starknet’s reliance on a state-of-the-art cryptographic proof system - STARK.",
+        "image": "starknet.png"
+      }
+  ]
+  
